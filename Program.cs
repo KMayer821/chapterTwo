@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int integer = 1;
-            double floatPoint = 3.22;
-            bool isMeAlife = true;
+            int pace = 1;
+            double score = 3.22;
+            bool isAlife = true;
             string Message = "some message";
-            float fifth = 1.337;
-            long bigDec = 111111111;
+            float secretCode = 1.337f;
+            long onlyOnce = 111111111;
+            uint balance = 123123;
+            char label = 'A';
+            byte eax = 1;
+            sbyte bx = 12;
 
         }
     }
