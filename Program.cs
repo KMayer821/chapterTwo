@@ -13,7 +13,7 @@ namespace ConsoleApp1
             int pace = 1;
             double score = 3.22;
             bool isAlife = true;
-            string Message = "some message";
+            string message = "some message";
             float secretCode = 1.337f;
             long onlyOnce = 111111111;
             uint balance = 123123;
