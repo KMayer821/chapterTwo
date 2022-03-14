@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numberOfImages = 52;
+            int maximumImagesInLine = 3;
+            Console.Write(numberOfImages / maximumImagesInLine);
+            Console.Write(" заполненных рядов ");
+            Console.Write(numberOfImages % maximumImagesInLine);
+            Console.WriteLine(" картинок сверх меры");
+        }
+    }
+}
