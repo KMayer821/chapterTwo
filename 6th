@@ -12,9 +12,12 @@ namespace ConsoleApp2
         {
             int numberOfImages = 52;
             int maximumImagesInLine = 3;
-            Console.Write(numberOfImages / maximumImagesInLine);
+            int fullLines = numberOfImages / maximumImagesInLine;
+            int extraImages = numberOfImages % maximumImagesInLine;
+            
+            Console.Write(fullLines);
             Console.Write(" заполненных рядов ");
-            Console.Write(numberOfImages % maximumImagesInLine);
+            Console.Write(extraImages);
             Console.WriteLine(" картинок сверх меры");
         }
     }
