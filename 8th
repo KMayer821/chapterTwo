@@ -11,17 +11,18 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
             int timeForOnePerson = 10;
+            int minutesInOneHour = 60;
             int crones;
-            int hours;
-            int minutes;
-            int totalTime;
+            int hoursForWaiting;
+            int minutesForWaiting;
+            int totalTimeForWaiting;
 
             Console.WriteLine("Сколько старушек? ");
             crones = Convert.ToInt32(Console.ReadLine());
-            totalTime = crones * timeForOnePerson;
-            hours = totalTime / 60;
-            minutes = totalTime % 60;
-            Console.WriteLine("Вам ждать " + hours + " часов и " + minutes + " минут");
+            totalTimeForWaiting = crones * timeForOnePerson;
+            hoursForWaiting = totalTimeForWaiting / minutesInOneHour;
+            minutesForWaiting = totalTimeForWaiting % minutesInOneHour;
+            Console.WriteLine("Вам ждать " + hoursForWaiting + " часов и " + minutesForWaiting + " минут");
         }
     }
 }
