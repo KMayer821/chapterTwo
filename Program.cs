@@ -18,8 +18,8 @@ namespace ConsoleApp1
             long onlyOnce = 111111111;
             uint balance = 123123;
             char label = 'A';
-            byte eax = 1;
-            sbyte bx = 12;
+            byte eaxRegister = 1;
+            sbyte counterBeginig = 12;
 
         }
     }
